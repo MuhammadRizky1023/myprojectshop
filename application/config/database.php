@@ -78,7 +78,7 @@ $db['default'] = array(
 	'hostname' => 'localhost:3325',
 	'username' => 'root',
 	'password' => '',
-	'database' => 'myapp',
+	'database' => 'myproject',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -92,6 +92,5 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE,
-
+	'save_queries' => TRUE
 );
